@@ -66,6 +66,7 @@ def format(format_list, data_ary):
             else:
                 row_line += '0'.rjust(10) + ','
         row_line = row_line[:-1] + '\n'
+        print(row_line)
         data_list.append(row_line)
     output_file = open(OUT,'w')
     for i in range(int(np.ceil(len(FORMAT)))):
