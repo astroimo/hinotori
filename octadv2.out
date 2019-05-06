@@ -1,0 +1,13 @@
+show_adcsmpbit1?;
+show_adcsmpbit2?;
+Trying 192.168.5.181...
+Connected to 192.168.5.181 (192.168.5.181).
+Escape character is '^]'.
+!show_adcsmpbit1?0:0.000:0.000:0.000:0.000:100.000:0.000:0.000:0.000;
+!show_adcsmpbit2?0:0.000:0.000:0.000:0.001:99.999:0.000:0.000:0.000;
+show_adcsmpbit3?;
+!show_adcsmpbit3?0:0.000:0.000:0.000:0.020:99.980:0.000:0.000:0.000;
+^]
+telnet> invalid command name "'telnet>'"
+    while executing
+"'telnet>'        send "q\n""

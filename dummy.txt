@@ -1,0 +1,6 @@
+Sending string to instrument.
+Agilent Technologies,3499,my42000340,4.0 2.0
+100=close 101=open 102=open 200=open 201=close 202=open 
+300=open 301=open 302=open 400=close 401=open 402=open 
+500=open 501=open 502=open 
+
